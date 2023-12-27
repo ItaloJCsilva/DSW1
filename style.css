@@ -4,10 +4,18 @@
 }
 body{
   background-color:black ;
-  min-height: 100vh; 
+  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
+h5{
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
 nav{
   background-color: black;
   box-shadow: 3px 3px 5px gold;
@@ -123,6 +131,190 @@ h1{
 
 }
 
+.conheça{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .5s;
+  border: none;
+  background-color: black;
+  }
+
+
+.ferrari{
+  margin: 0;
+  font-family: Roboto,Helvetica Neue,Arial;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #202020;
+  text-align: left;
+  background-color: #fff;
+}
+.tt{
+  color: black;
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: 0.062rem;
+    margin-top: 1.8rem;
+}
+@media (max-width: 1024px){
+
+  .tt {
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: 0.062rem;
+    margin-top: 1.8rem;
+  }
+}
+.ptt{
+  flex: 0 0 100%;
+  max-width: 100%;
+  
+
+}
+.dv1{
+  color: black;
+  margin-bottom: 20px;
+
+}
+
+
+
+.imagen{
+  width: 60%; 
+  height: auto; 
+  position: center;
+  margin-left: 20%;
+}
+
+.texto{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+footer{
+  background-color: rgb(112, 110, 110);
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  
+}
+.footerm{
+  background-color: rgb(112, 110, 110);
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  
+}
+.container{
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-content{
+  width: 40%;
+}
+h3{
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.footer-content p{
+  width:190px;
+  margin: auto;
+  padding: 7px;
+}
+.footer-content ul{
+  text-align: center;
+}
+.list{
+  padding: 0;
+}
+.list li{
+  width: auto;
+  text-align: center;
+  list-style-type:none;
+  padding: 7px;
+  position: relative;
+}
+
+
+.social-icons li{
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 780px) {
+  .container{
+      width: 100%; 
+      height: 100%;
+  }
+}
+
+
+@media screen and (min-width: 781px) and (max-width: 1000px) {
+  .container {
+      width: 48%; 
+  }
+}
+
+/* css do formulario*/
+.formulario{
+  background-color: white;
+
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1rem;
+  width: 50%;
+  height: 50% ;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+button{
+  padding: 10px;
+  cursor: pointer;
+}
+
+h1{
+  color: black;
+}
+.sexo{
+  display: flex;
+  flex-direction: row;
+  
+
+}
 
 
 
